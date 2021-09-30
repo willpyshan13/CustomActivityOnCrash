@@ -58,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        int a = 1/0;
         crashWithDelayButton.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("StaticFieldLeak") //For demo purposes we don't care about leaks
             @Override
